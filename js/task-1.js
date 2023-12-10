@@ -1,5 +1,5 @@
 /**
- * Методи рядків
+ * РњРµС‚РѕРґС‹ СЃС‚СЂРѕРє
  *
  *  - slice
  *  - toLowerCase/toUpperCase
