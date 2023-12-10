@@ -1,1 +1,1 @@
-# goit-js-lessons-2.2
+# goit-js-hw-01
