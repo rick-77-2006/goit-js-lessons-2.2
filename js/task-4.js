@@ -70,15 +70,15 @@ const max = 5;
 
 /* як виконати це завдання ? Доповни код таким чином, щоб у змінну number записувалося перше число у проміжку від start до end, яке ділиться на 5 без остачі. я не розумію як це виконати ? */
 
-const start = 123;
-const end = 344;
-let number;
+// const start = 123;
+// const end = 344;
+// let number;
 
-for (let i = start; i <= end; i++) {
-  if (i % 5 === 0) {
-    number = i;
-    break;
-  }
-}
+// for (let i = start; i <= end; i++) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
 
-console.log(number);
+// console.log(number);

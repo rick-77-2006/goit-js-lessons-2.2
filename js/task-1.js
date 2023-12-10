@@ -10,7 +10,7 @@
  */
 
 // const username = "Jacob Mercer";
-// const result = username.slice(-4, -1);
+// const result = username.slice(-6, -1);
 // console.log(result);
 // console.log(username);
 
@@ -65,21 +65,25 @@
 //   console.log("...");
 // }
 
+// ===================
+
 // const str = "awdawd.js";
 // console.log(str.endsWith(".js"));
 
 // ===================================
 
-// const str = "Some Words ewdaw awdawd awd";
+const str = "Some Words ewdaw awdawd awd";
 
-// const firstIndex = str.indexOf(5);
-// const lastIndex = str.indexOf("5", firstIndex + 1);
+const firstIndex = str.indexOf(5);
+const lastIndex = str.indexOf("5", firstIndex + 1);
 
-// console.log(str.slice(firstIndex + 1, lastIndex));
-// console.log(lastIndex);
+console.log(str.slice(firstIndex + 1, lastIndex));
+console.log(lastIndex);
+
+// ===================================
 
 // const result = str.indexOf("5");
-//
+
 // console.log(result);
 
 // const lastIndex = str.lastIndexOf(" ");
@@ -101,14 +105,14 @@
 
 // =============================
 
-function getUserName() {
-  const user = prompt("Enter you first name and last name").trim();
-  const index = user.indexOf(" ");
-  const firstName = user.slice(0, index);
-  const lastName = user.slice(index + 1);
+// function getUserName() {
+//   const user = prompt("Enter you first name and last name").trim();
+//   const index = user.indexOf(" ");
+//   const firstName = user.slice(0, index);
+//   const lastName = user.slice(index + 1);
 
-  console.log(firstName);
-  console.log(lastName);
-}
+//   console.log(firstName);
+//   console.log(lastName);
+// }
 
-getUserName();
+// getUserName();
